@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            div{
+                background-color: lightgreen;
+                width: 400px;
+                position: relative;
+                top: 90px;
+
+            }
+            .button{
+                background-color: lightgreen;
+                border: none;
+                color: white;
+                padding: 10px 17px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                position:fixed;
+            </style>
+        </head>
+        <body>
+            <a href="staffpage.html" class="button">BACK</a>
+        <center>
+            <div>
+                <form action="updatestaff.jsp"><br>
+
+                    <h1>Update staff Details</h1>
+                    <table>
+                        <tr><td>Select Update Field :</td>
+                            <td><select name="choice">
+                                    <option value="" selected>
+                                        -----select------
+                                    <option value="firstname"/>firstname
+                                    <option value="lastname"/>lastname
+                                    <option value="stafftype"/>stafftype
+                                    <option value="jobrole"/>JobROle
+                                    <option value="department"/>Department
+                                    <option value="salary"/>Salary
+
+                                </select></td></tr>
+                        <tr><strong><td>Enter ID :</strong></td><td><input type="text" name="id"></td></tr>
+                        <tr><strong><td>Set at Value :</strong></td><td><input type="text" name="value"></td></tr>
+
+
+
+                    </table><br>
+                    <input type=submit value=submit>
+                    <input type=reset value=reset>
+
+                </form><br><br>
+            </div>
+        </center>
+    </body>
+</html>

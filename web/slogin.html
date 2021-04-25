@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Staff Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            div{
+                background-color: lightgreen;
+                width: 500px;
+                position:relative;
+                top:70px;
+            }
+            .button{
+                position: fixed;
+                background-color: lightgreen;
+                border: none;
+                color: white;
+                padding: 10px 17px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body bgcolor="white">
+        <a href="index.html" class="button">BACK</a>
+    <center>
+        <div><br>
+            <h1>Staff Login</h1>
+
+            <form action="slogin.jsp">
+                <table>  
+                    <tr><td>Staff Type:</td><td>  
+                            <select name="sfty" style="width:155px">  
+                                <option value="" selected>
+                                    ------select------
+                                <option value="ChiefEngg"/>ChiefEngg
+                                <option value="Staffmanager"/>Staff Manager  
+                                <option value="M.D"/>M.D  
+                                <option value="Engineer"/>Engineer  
+                                <option value="Chairman"/>chairman
+                                <option value="Accountant">Accountant
+                            </select></tr>
+                    </td></tr>
+                    <tr><td>User Name:</td><td><input type="text" name="un"/></td></tr> 
+                    <tr><td>Password:</td><td><input type="password" name="pass"/></td></tr>
+
+                </table><br>
+                <input type="submit" value="LOGIN"/>
+            </form><br>
+            </center>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Farmer Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            div{
+                background-color: lightgreen;
+                width: 800px;
+                position: relative;
+                top: 50px;
+                
+            }
+            .button{
+                background-color: lightgreen;
+                border: none;
+                color: white;
+                padding: 10px 17px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                position:fixed;
+            }
+            
+        </style>
+    </head>
+    <body bgcolor="white">
+        <a href="flogin.html" class="button">BACK</a>
+        <center>
+            <div><br>
+                <h1>Farmer Registraion</h1> 
+<form action="regifarmer.jsp" method="post">  
+<table>  
+    <tr><td>First Name:</td><td><input type="text" name="fname"/></td><td></td><td>Last Name:</td><td><input type="text" name="lname"/></td></tr>  
+    <tr><td>Middel Name:</td><td><input type="text" name="mname"/></td></tr>
+    <tr><td>Gender:</td><td>  
+    <input type="radio" name="sx" value="male"/>Male   
+    <input type="radio" name="sx" value="female"/>Female </td></tr> 
+    <tr><td>Address:</td><td><input type="text" name="add"/></td><td></td><td>Gat No:</td><td><input type="text" name="gn"/></td></tr>
+    <tr><td>8-A:</td><td><input type="text" name="8a"/></td><td></td><td>7/12 Name:</td><td><input type="text" name="7/12"/></td></tr>
+    <tr><td>Area:</td><td><input type="text" name="ar"/></td></tr>
+    <tr><td>Type Of SugarCane:</td><td><input type="text" name="typs"/></td></tr>
+    <tr><td>Lagvad Date:</td><td><input type="date" name="ldt"/></td></tr> 
+     <tr><td>Expected Harvesting Date:</td><td><input type="date" name="ehdt"/></td></tr>
+    <tr><td>BANK DETAILS:</td></tr> 
+    <tr><td>Bank Name:</td><td><input type="text" name="bn"/></td><td></td> <td>Acc. No:</td><td><input type="text" name="acn"/></td></tr> 
+    <tr><td>IFSC Code:</td><td><input type="text" name="ifsc"/></td><td></td> <td>Acc Type:</td><td><input type="text" name="act"/></td></tr> 
+    <tr><td>User Name:</td><td><input type="text" name="un"/></td></tr> 
+    <tr><td>Password:</td><td>  
+        <input type="password" name="pass"/></td></tr>
+
+</table> <br>
+    <input type="submit" value="Register"/>
+</form> <br><br>
+            </div>
+    </center>
+    </body>
+</html>

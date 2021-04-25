@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+   <head>
+        <style>
+            div
+            {
+                padding:20px 30px 20px 50px;
+                background-color:lightgreen;
+                width:700px;
+                position:relative;
+               margin:0 auto 0 auto;
+               
+            }
+            .button{
+                background-color: lightgreen;
+                border: none;
+                color: white;
+                padding: 10px 17px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                position:fixed;
+            </style>
+
+        <title>Sending Mail Through JSP</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width">
+
+    </head>
+
+    <body bgcolor="white">
+        <a href="fpage.html" class="button">BACK</a>
+        <div>
+
+        <form action="mailmessage.jsp">
+                <center>
+            <table>
+
+                <tr><td><b><font color="black">To:
+
+                    </td>
+
+                    <td><b><b><input type="text" name="mail" value="Enter sender mail-id"/><br/>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <b><font color="black">Subject:
+
+                    </td>
+
+                    <td>
+
+                        <input type="text" name="sub" value="Enter Subject Line"><br/>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <b><font color="black">Message Text:
+
+                    </td>
+
+                    <td>
+
+                        <textarea rows="12" cols="80" name="mess"></textarea><br/>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <input type="submit" value="Send">
+
+                    </td>
+
+                    <td>
+
+                        <input type="reset" value="Reset">
+
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </form>
+            </div>
+        </center>
+
+    </body>
+</html>
